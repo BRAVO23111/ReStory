@@ -53,28 +53,28 @@ const HomePage = () => {
     {
       name: "Penguin India",
       description: "Leading publisher of literary fiction and non-fiction",
-      logo: "/src/assets/harpercollins.png",
+      logo: "https://i.postimg.cc/gjYzdHP8/penguinindia.png",
       years: "30+ Years of Excellence",
       books: "10,000+",
     },
     {
       name: "Harper Collins",
       description: "Publisher of award-winning literature worldwide",
-      logo: "/src/assets/harpercollins.png",
+      logo: "https://i.postimg.cc/0jc8NK83/harpercollins.png",
       years: "200+ Years of Publishing",
       books: "50,000+",
     },
     {
       name: "Aleph Book Company",
       description: "Independent publisher of outstanding literary works",
-      logo: "/src/assets/alephpic.jpg",
+      logo: "https://i.postimg.cc/L689bDDM/alephpic.jpg",
       years: "10+ Years of Innovation",
       books: "5,000+",
     },
     {
       name: "Oxford University Press",
       description: "World largest university press",
-      logo: "/src/assets/oxford.png",
+      logo: "https://i.postimg.cc/3rBr1VgB/oxford.png",
       years: "500+ Years of Legacy",
       books: "100,000+",
     },
@@ -110,7 +110,7 @@ const HomePage = () => {
         sx={{
           height: "100vh",
           position: "relative",
-          backgroundImage: `url('/src/assets/pic1.jpeg')`,
+          backgroundImage: `url('https://i.postimg.cc/qMDJVKD6/pic1.jpg')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -339,7 +339,7 @@ const HomePage = () => {
             <Box sx={{ position: "relative" }}>
               <Box
                 component="img"
-                src="/src/assets/pic2.jpeg"
+                src="https://i.postimg.cc/PxbXBF0d/pic2.jpg"
                 alt="Books Collection"
                 sx={{
                   width: "100%",
